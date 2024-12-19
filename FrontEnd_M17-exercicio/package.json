@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "less": "lessc C:/git/FrontEnd_M17-exercicio/src/styles/main.less C:/git/FrontEnd_M17-exercicio/build/styles/main.css",
-    "watch": "less-watch-compiler C:/git/FrontEnd_M17-exercicio/src/styles C:/git/FrontEnd_M17-exercicio/build/styles",
+    "less": "less-watch-compiler src/styles build/styles --run-once",
+    "watch": "less-watch-compiler src/styles build/styles",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
